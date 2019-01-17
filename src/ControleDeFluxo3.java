@@ -24,7 +24,7 @@ public class ControleDeFluxo3 {
         System.out.println("*********************************************\n");
         char sexo = 'S';
 
-        switch (sexo){
+        switch (sexo) {
             case 'F':
                 System.out.println("Feminino");
                 break;
@@ -32,11 +32,12 @@ public class ControleDeFluxo3 {
                 System.out.println("Maculino");
                 break;
 
-                default:
-                    System.out.println("Nenhuma opção encontrada");
+            default:
+                System.out.println("Nenhuma opção encontrada");
 
 
         }
+
 
 
     }
