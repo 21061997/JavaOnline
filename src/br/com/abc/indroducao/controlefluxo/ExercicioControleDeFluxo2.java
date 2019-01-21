@@ -1,4 +1,4 @@
-package br.com.abc.indroducao;
+package br.com.abc.indroducao.controlefluxo;
 
 public class ExercicioControleDeFluxo2 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package br.com.abc.indroducao;
+package br.com.abc.indroducao.inicio;
 
 public class ImprimindoVariaveis {
 
