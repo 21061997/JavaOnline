@@ -1,3 +1,5 @@
+package br.com.abc.indroducao;
+
 public class RelatorioDePendencias {
     public static void main(String[] args) {
 

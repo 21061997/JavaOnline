@@ -1,3 +1,5 @@
+package br.com.abc.indroducao;
+
 public class ControleDeFluxo6 {
     public static void main(String[] args) {
 

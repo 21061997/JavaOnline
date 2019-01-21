@@ -1,3 +1,5 @@
+package br.com.abc.indroducao;
+
 public class Arrays4 {
     public static void main(String[] args) {
         String[] nomes = {"Yuri", "Bruna", "Fernanda", "Myrella"};

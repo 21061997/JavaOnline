@@ -1,3 +1,5 @@
+package br.com.abc.indroducao;
+
 public class ExercicioControleDeFluxo3 {
     public static void main(String[] args) {
         /*Imprimindo números pares de 0 a 100.000*/

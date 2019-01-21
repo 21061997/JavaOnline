@@ -1,3 +1,5 @@
+package br.com.abc.indroducao;
+
 public class Arrays5 {
     public static void main(String[] args) {
         /*Array para verificar os dias do ano*/

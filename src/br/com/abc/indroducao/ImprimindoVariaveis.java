@@ -1,3 +1,5 @@
+package br.com.abc.indroducao;
+
 public class ImprimindoVariaveis {
 
     public static void main(String[] arg) { //Metódo de entrada
