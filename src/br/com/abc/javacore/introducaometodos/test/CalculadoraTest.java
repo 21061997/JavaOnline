@@ -8,7 +8,11 @@ public class CalculadoraTest {
         calculadora.somaDoisNumeros();
         calculadora.subtraiDoisNumero();
         calculadora.mutiplicaDoisNumeros(10,10);
-        Double guardaValor = calculadora.divisaoDeDoisNumeros(20,2);
+        Double guardaValor = calculadora.divisaoDeDoisNumeros(20,0);
+        System.out.println("Imprimindo dois números divididos");
+        calculadora.imprimiDoisNumerosDivididos(10,5);
+
+
         System.out.println(guardaValor);
     }
 }

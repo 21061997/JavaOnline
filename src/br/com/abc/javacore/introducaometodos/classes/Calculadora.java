@@ -25,8 +25,26 @@ public class Calculadora {
 
     public double divisaoDeDoisNumeros(double primeiroNumero, double segundoNumero) {
 
+        if (segundoNumero != 0) {
 
-        return primeiroNumero / segundoNumero;
+
+            return primeiroNumero / segundoNumero;
+        }
+
+        return 0;
+
+
+    }
+
+
+    public void imprimiDoisNumerosDivididos(double num1, double num2) {
+
+        if (num2 != 0) {
+            System.out.println(num1 / num2);
+            return;
+        }
+        System.out.println("Você não pode fazer divisão por um número 0");
+
     }
 
 
