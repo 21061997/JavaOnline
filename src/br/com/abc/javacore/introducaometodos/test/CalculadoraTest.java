@@ -12,7 +12,13 @@ public class CalculadoraTest {
         System.out.println("Imprimindo dois números divididos");
         calculadora.imprimiDoisNumerosDivididos(10,5);
 
-
+        int[] valorAlocadoNaMemoria = new int[]{1,2,3,4,5};
+        calculadora.fazendoSomaDeVariosNumeros(valorAlocadoNaMemoria);
         System.out.println(guardaValor);
+        System.out.println("Varargs");
+        calculadora.SomaDeVariosNumeroUtilizandoVarargs(1,2,3,4,5);
+
+
+
     }
 }

@@ -16,17 +16,8 @@ public class ProfessorTest {
         professor2.cpf = "4444466666";
         professor2.rg = "334546456";
 
-
-        System.out.println(professor.nome);
-        System.out.println(professor.matricula);
-        System.out.println(professor.cpf);
-        System.out.println(professor.rg);
-
-        System.out.println(professor2.nome);
-        System.out.println(professor2.matricula);
-        System.out.println(professor2.cpf);
-        System.out.println(professor2.rg);
-
+        professor.imprimiProfessor(professor);
+        professor2.imprimiProfessor(professor2);
 
     }
 }
