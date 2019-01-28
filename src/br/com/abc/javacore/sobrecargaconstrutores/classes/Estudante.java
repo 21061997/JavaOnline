@@ -6,6 +6,7 @@ public class Estudante {
     private double[] notas;
     private String datamatricula;
 
+
     public Estudante(String matricula, String nome, double[] notas) {
         this.nome = nome;
         this.matricula = matricula;
@@ -65,6 +66,10 @@ public class Estudante {
 
         }
 
+    }
+
+    {
+        System.out.println("Iniciando o código");
     }
 
 
