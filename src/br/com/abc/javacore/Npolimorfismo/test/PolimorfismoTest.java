@@ -8,16 +8,15 @@ import br.com.abc.javacore.Npolimorfismo.classes.Vendedor;
 public class PolimorfismoTest {
     public static void main(String[] args) {
         Gerente gerente = new Gerente("Osvaldo", 5000, 2000);
-        Vendedor vendedor = new Vendedor("Yuri", 2000, 20000);
+        Vendedor vendedor = new Vendedor("Yuri", 2000, 20);
         RelatorioPagamento relatorioPagamento = new RelatorioPagamento();
         //relatorioPagamento.relatorioPagamentoGerente(gerente);
         //relatorioPagamento.relatorioPagamentoVendedor(vendedor);
-        relatorioPagamento.relatorioPagamentoGenerico(gerente);
-        relatorioPagamento.relatorioPagamentoGenerico(vendedor);
-        Funcionario funcionario = gerente;
-        System.out.println("###################################");
-        System.out.println(funcionario.getSalario());
 
+
+        relatorioPagamento.relatorioPagamentoGenerico(gerente);
+        System.out.println("-----------------------------------------------x");
+        relatorioPagamento.relatorioPagamentoGenerico(vendedor);
 
 
 
